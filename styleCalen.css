@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+	font-family: 'Inter', sans-serif;
+}
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+div{
+	display:inline;
+}
+
+.heading{
+	top: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+	width: auto;
+	height: 100px;
+	background: white;
+  border-bottom: 10px solid #78ad8d;
+  color: black;
+  z-index: 9;
+}
+
+.menu{
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	margin-right: 100px;
+	color: black;
+}
+
+#menu-text {
+  position: absolute; 
+	top: 35px;
+	left: 22.5%;
+} 
+
+#signin{
+	position: absolute;
+  left: 125%;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	color: #008037;
+	width: 100px;
+}
+
+.footer{
+	position: absolute;
+	top: 1100px;
+	width: 100%;
+}
+
+.footerText1{
+	position: absolute;
+	top: 40%;
+	left: 200px;
+}
+
+.footerText2{
+	position: absolute;
+	top: 40%;
+	left: 550px;
+}
+
+.footerText3{
+	position: absolute;
+	top: 40%;
+	left: 900px;
+}
+
+.footerText4{
+	position: absolute;
+	top: 40%;
+	left: 1250px;
+}
+
+a{
+	color: black;
+}
+
+
+.nav-logo {
+  width: 'auto';
+  height:100%;
+}
+
+#picCalendar{
+	position: absolute;
+	left: 145px;
+	top: 45%;
+}
+
+#month{
+	position: absolute;
+	font-size: 40px;
+	left: 625px;
+	top: 200px;
+}
+
+#addSchedules{
+	position: absolute;
+	font-size: 20px;
+	background: #008037;
+	top: 275px;
+	right: 145px;
+	color: white;
+	
+	border: #008037 solid 10px;
+  border-radius: 100px;
+}
+
+#shortSchedule{
+	position: absolute;
+	font-size: 20px;
+	top: 470px;
+	left: 637px;
+}
+
+#longSchedule1{
+	position: absolute;
+	font-size: 20px;
+	top: 600px;
+	left: 807px;
+	width: 325px;
+	text-align: center;
+	background: #f4a9a9;
+}
+
+#longSchedule2{
+	position: absolute;
+	font-size: 20px;
+	top: 858px;
+	left: 309px;
+	width: 498px;
+	text-align: center;
+	background: #a3b3ef;
+}
+
+.date1{
+	position: absolute;
+	top: 440px;
+	margin-left: 470px;
+}
+
+.date2{
+	position: absolute;
+	top: 440px;
+	margin-left: 633px;
+}
+
+.date3{
+	position: absolute;
+	top: 440px;
+	margin-left: 805px;
+}
+
+.date4{
+	position: absolute;
+	top: 440px;
+	margin-left: 970px;
+}
+
+.date5{
+	position: absolute;
+	top: 440px;
+	margin-left: 1133px;
+}
+
+.date6{
+	position: absolute;
+	top: 570px;
+	margin-left: 150px;
+}
+
+.date7{
+	position: absolute;
+	top: 570px;
+	margin-left: 310px;
+}
+
+.date8{
+	position: absolute;
+	top: 570px;
+	margin-left: 470px;
+}
+
+.date9{
+	position: absolute;
+	top: 570px;
+	margin-left: 633px;
+}
+
+.date10{
+	position: absolute;
+	top: 570px;
+	margin-left: 805px;
+}
+
+.date11{
+	position: absolute;
+	top: 570px;
+	margin-left: 970px;
+}
+
+.date12{
+	position: absolute;
+	top: 570px;
+	left: 1137px;
+}
+
+.date13{
+	position: absolute;
+	top: 700px;
+	left: 150px;
+}
+
+.date14{
+	position: absolute;
+	top: 700px;
+	left: 313px;
+}
+
+.date15{
+	position: absolute;
+	top: 700px;
+	margin-left: 470px;
+}
+
+.date16{
+	position: absolute;
+	top: 700px;
+	margin-left: 633px;
+}
+
+.date17{
+	position: absolute;
+	top: 700px;
+	margin-left: 805px;
+}
+
+.date18{
+	position: absolute;
+	top: 700px;
+	margin-left: 970px;
+}
+
+.date19{
+	position: absolute;
+	top: 700px;
+	left: 1137px;
+}
+
+.date20{
+	position: absolute;
+	top: 820px;
+	left: 150px;
+}
+
+.date21{
+	position: absolute;
+	top: 820px;
+	left: 313px;
+}
+
+.date22{
+	position: absolute;
+	top: 820px;
+	margin-left: 470px;
+}
+
+.date23{
+	position: absolute;
+	top: 820px;
+	margin-left: 633px;
+}
+
+.date24{
+	position: absolute;
+	top: 820px;
+	margin-left: 805px;
+}
+
+.date25{
+	position: absolute;
+	top: 820px;
+	margin-left: 970px;
+}
+
+.date26{
+	position: absolute;
+	top: 820px;
+	left: 1137px;
+}
+
+.date27{
+	position: absolute;
+	top: 950px;
+	left: 150px;
+}
+
+.date28{
+	position: absolute;
+	top: 950px;
+	left: 313px;
+}
+
+.date29{
+	position: absolute;
+	top: 950px;
+	margin-left: 470px;
+}
+
+.date30{
+	position: absolute;
+	top: 950px;
+	margin-left: 633px;
+}
+
+#gap{
+	position: absolute;
+	top: 400px;
+}

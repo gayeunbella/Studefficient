@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+	font-family: 'Inter', sans-serif;
+}
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+div{
+	display:inline;
+}
+
+.heading{
+	top: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+	width: auto;
+	height: 100px;
+	background: white;
+  border-bottom: 10px solid #78ad8d;
+  color: black;
+  z-index: 9;
+}
+
+.menu{
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	margin-right: 100px;
+	color: black;
+}
+
+#menu-text {
+  position: absolute; 
+	top: 35px;
+	left: 22.5%;
+} 
+
+#signin{
+	position: absolute;
+  left: 125%;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	color: #008037;
+	width: 100px;
+}
+
+.footer{
+	position: absolute;
+	top: 800px;
+	width: 100%;
+}
+
+.footerText1{
+	position: absolute;
+	top: 40%;
+	left: 200px;
+}
+
+.footerText2{
+	position: absolute;
+	top: 40%;
+	left: 550px;
+}
+
+.footerText3{
+	position: absolute;
+	top: 40%;
+	left: 900px;
+}
+
+.footerText4{
+	position: absolute;
+	top: 40%;
+	left: 1250px;
+}
+
+a{
+	color: black;
+}
+
+#timer{
+	position: absolute;
+	font-size: 40px;
+	left: 627px;
+	top: 200px;
+}
+
+#time{
+	position: absolute;
+	font-size: 150px;
+	left: 215px;
+	top: 350px;
+	width: 1000px;
+	text-align: center;
+	
+	color: white;
+	background: #008037;
+	border: #008037 solid 10px;
+  border-radius: 25px;
+}
+
+#playpause{
+	position: absolute;
+	font-size: 20px;
+	left: 215px;
+	top: 575px;
+	width: 1000px;
+	text-align: center;
+	
+	background: #78ad8d;
+	border: #78ad8d solid 10px;
+  border-radius: 25px;
+}
+
+button{
+	font-size: 25px;
+	width: 1000px;
+	color: grey;
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding:6px;
+}
+
+#b1{
+	position: absolute;
+	text-align: center;
+	left: 215px;
+	top: 675px;
+}
+
+button:active{
+	color: white;
+}
+
+#studyRest{
+	color: black;
+}
+
+#srTime{
+	color: black;
+}
+
+.nav-logo {
+  width: 'auto';
+  height:100%;
+}
